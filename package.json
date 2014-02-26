@@ -18,6 +18,11 @@
     }
   ],
 
+  "homepage": "https://github.com/yaru22/git-track",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaru22/git-track.git"
+  },
   "keywords": [
     "git",
     "track",
