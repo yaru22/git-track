@@ -3,12 +3,6 @@
 #
 # git-track: Track a remote repository and apply patches incrementally.
 #
-# Installation:
-#
-#   1) Place this script in one of the folders present in your PATH variable.
-#   2) Rename this script to `git-track`
-#   3) Turn this script into an executable file: chmod u+x git-track
-#
 # Usage:
 #
 #   1) Add remote: git remote add seed https://github.com/<id>/<repo>.git
