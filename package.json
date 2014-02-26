@@ -1,0 +1,27 @@
+{
+  "name": "git-track",
+  "description": "Track a remote repository and apply patches incrementally.",
+  "version": "0.1.0",
+  "bin": "./git-track",
+
+  "author": "Brian Park <yaru22@gmail.com>",
+  "contributors": [
+    {
+      "name": "Brian Park",
+      "email": "yaru22@gmail.com",
+      "url": "https://github.com/yaru22"
+    },
+    {
+      "name": "Pilwon Huh",
+      "email": "pilwon@gmail.com",
+      "url": "https://github.com/pilwon"
+    }
+  ],
+
+  "keywords": [
+    "git",
+    "track",
+    "patch"
+  ],
+  "license": "MIT"
+}
