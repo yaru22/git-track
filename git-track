@@ -55,7 +55,7 @@ last_commit_hash=`git rev-parse $TRACK_BRANCH`
 
 if [ "$prev_track" != "$last_commit_hash" ]; then
   # Create patch and apply
-  git diff --binary ${prev_track}..${TRACK_BRANCH} | git apply -3
+  git diff --full-index --binary ${prev_track}..${TRACK_BRANCH} | git apply -3
 fi
 
 echo $last_commit_hash > $TRACKFILE
