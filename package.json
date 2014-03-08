@@ -1,7 +1,7 @@
 {
   "name": "git-track",
   "description": "Track a remote repository and apply patches incrementally.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": "./git-track",
 
   "author": "Brian Park <yaru22@gmail.com>",
